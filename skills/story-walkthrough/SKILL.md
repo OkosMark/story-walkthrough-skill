@@ -64,7 +64,7 @@ Give the options from smallest to largest (for example a quick fix and a proper 
 - Plain words. Define every term the first time it appears, or leave it out.
 - Keep code identifiers in backticks next to the metaphor, so the story stays traceable to the code.
 - Prefer short paragraphs and bullets over long blocks.
-- Follow the user's writing-style rules from their CLAUDE.md files.
+- Follow the user's writing-style rules from their CLAUDE.md or AGENTS.md files.
 
 ## After the story
 

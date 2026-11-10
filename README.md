@@ -34,14 +34,26 @@ With the [skills CLI](https://github.com/vercel-labs/skills):
 npx skills add OkosMark/story-walkthrough-skill
 ```
 
-Or copy the folder by hand:
+The CLI asks which agents to install for. To pick them up front, pass `-a`:
+
+```bash
+npx skills add OkosMark/story-walkthrough-skill -a claude-code
+```
+
+```bash
+npx skills add OkosMark/story-walkthrough-skill -a codex
+```
+
+Add `-g` to install for your user instead of the current project.
+
+Or copy the folder by hand into Claude Code's skills folder:
 
 ```bash
 git clone https://github.com/OkosMark/story-walkthrough-skill.git
 cp -r story-walkthrough-skill/skills/story-walkthrough ~/.claude/skills/
 ```
 
-The skill is a plain `SKILL.md` file, so it also works with other agents that read the Agent Skills format.
+The skill is a plain `SKILL.md` file in the Agent Skills format, so it works with Claude Code, Codex, and other agents that read that format.
 
 ## License
 
